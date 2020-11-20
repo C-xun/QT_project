@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Set</class>
+ <widget class="QWidget" name="Set">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1067</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="class_btn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>160</y>
+     <width>93</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>分类器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="list_btn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>230</y>
+     <width>93</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>操作记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="password_btn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>300</y>
+     <width>93</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="debug_btn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>370</y>
+     <width>93</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>串口调试</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stacked_set">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>591</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="Classifier" name="classifier"/>
+   <widget class="Record" name="record"/>
+   <widget class="Password" name="password"/>
+   <widget class="MainDebug" name="debug"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Classifier</class>
+   <extends>QWidget</extends>
+   <header>classifier.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Record</class>
+   <extends>QWidget</extends>
+   <header>record.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Password</class>
+   <extends>QWidget</extends>
+   <header>password.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MainDebug</class>
+   <extends>QWidget</extends>
+   <header>maindebug.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

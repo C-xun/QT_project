@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/" lang="*">
+        <file>add.png</file>
+        <file>clear.png</file>
+        <file>close.png</file>
+        <file>close_1.png</file>
+        <file>exit.png</file>
+        <file>keep.png</file>
+        <file>login.png</file>
+        <file>main.png</file>
+        <file>num.png</file>
+        <file>open.png</file>
+        <file>read.png</file>
+        <file>register.png</file>
+        <file>res.qrc</file>
+        <file>set.png</file>
+        <file>time.png</file>
+        <file>write.png</file>
+        <file>about.png</file>
+        <file>load.png</file>
+        <file>monitor.png</file>
+        <file>return.png</file>
+        <file>web.jpg</file>
+        <file>clear_1.png</file>
+        <file>close_2.png</file>
+        <file>return_2.png</file>
+        <file>Clear_0.png</file>
+        <file>Close_0.png</file>
+        <file>Login_0.png</file>
+        <file>Register_0.png</file>
+        <file>Return_0.png</file>
+        <file>close_3.png</file>
+        <file>background.png</file>
+        <file>Interface.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
